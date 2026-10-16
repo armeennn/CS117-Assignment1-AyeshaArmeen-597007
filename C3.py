@@ -1,0 +1,13 @@
+#Defines a function that converts a user given positive decimal number to binary
+
+def decimal_to_binary(n):
+    binary = ""
+
+    while n > 0:
+        remainder = n%2
+        binary = str(remainder) + binary
+        n = n //2
+    return binary
+
+result = decimal_to_binary(10)
+print(result)
