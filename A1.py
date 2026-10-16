@@ -3,7 +3,7 @@
 voltage = int(input('Enter voltage: '))
 resistance = int(input('Enter resistance: '))
 
-if resistance == 0:
+if resistance <= 0:
     print('Invalid resistance value')
 else:
     current = voltage / resistance
