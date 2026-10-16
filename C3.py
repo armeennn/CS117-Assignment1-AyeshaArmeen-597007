@@ -9,5 +9,8 @@ def decimal_to_binary(n):
         n = n //2
     return binary
 
-result = decimal_to_binary(10)
-print(result)
+result1 = decimal_to_binary(10)
+result2 = decimal_to_binary(25)
+
+print(result1)
+print(result2)
